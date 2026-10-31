@@ -1,0 +1,25 @@
+[13:42:33] [LOG] mirror C:\Users\jakob\AppData\Local\Temp\ContractorsESP.log
+[13:42:33] ========== APPLICATION START ==========
+[13:42:33] [BUILD] Compiled Oct 31 2026 13:40:23, PID=33032
+[13:42:33] [STARTUP] GDI+ status=0
+[13:42:33] [UPDATE] manifest loader=80 exe=dc89e5bc42b3 steam=73421976f70c meta=1550c69180f6
+[13:42:33] [UPDATE] exe current (local dc89e5bc42b3 remote dc89e5bc42b3)
+[13:42:33] [KEY] machine HWID PODD
+[13:42:33] [KEY] PWF login OK session=a3727176-a3a days=-1 expiry=
+[13:42:33] [KEY] accepted days=-1 expiry= plan=lifetime
+[13:42:33] [UPDATE] payload banner steamStale=0 metaStale=0
+[13:42:49] [KEY] accepted, mode=INTERNAL
+[13:42:49] [MODE] Internal — injecting DLL
+[13:42:49] [GAME] candidate ContractorsShowdown.exe pid=40444 rank=7 score=1006 path=C:\Program Files (x86)\Steam\steamapps\common\Contractors Showdown\ContractorsShowdown.exe
+[13:42:49] [GAME] candidate Contractors_Showdown_Steam.exe pid=9312 rank=1 score=-1000 path=C:\Program Files (x86)\Steam\steamapps\common\Contractors Showdown\Contractors_Showdown\Binaries\Win64\Contractors_Showdown_Steam.exe
+[13:42:49] [INJECT] Target Contractors_Showdown_Steam.exe pid=9312 image=C:\Program Files (x86)\Steam\steamapps\common\Contractors Showdown\Contractors_Showdown\Binaries\Win64\Contractors_Showdown_Steam.exe
+[13:42:49] [META] runtime flag cleared for target C:\Program Files (x86)\Steam\steamapps\common\Contractors Showdown\Contractors_Showdown\Binaries\Win64\Contractors_Showdown_Steam.exe
+[13:42:49] [INJECT] payload=Steam build (1587 KB), runtime flag=cleared
+[13:42:49] [INJECT] hwid spoofer staged (140 KB)
+[13:42:49] [INJECT] NtLoadDriver status=0x00000000
+[13:42:49] [INJECT] DLL C:\Users\jakob\AppData\Local\Temp\ContractorsESP.dll bytes, driver handle=0x0000000000000464
+[13:42:50] [INJECT] hwid.dll 143360 bytes -> pid 9312 accepted (br=0)
+[13:42:51] [INJECT] IOCTL accepted, bytes returned=0
+[13:42:56] [INJECT] module check=-1
+[13:42:56] [INJECT] hwid module check=-1 (1 = spoofer active in-process)
+[13:42:56] [INJECT] target not inspectable; relying on the driver's status
