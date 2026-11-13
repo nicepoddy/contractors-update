@@ -1,25 +1,24 @@
-[21:24:20] [LOG] mirror C:\Users\jakob\AppData\Local\Temp\ContractorsESP.log
-[21:24:20] ========== APPLICATION START ==========
-[21:24:20] [BUILD] Compiled Nov  7 2026 21:03:28, PID=15412
-[21:24:20] [STARTUP] GDI+ status=0
-[21:24:20] [UPDATE] manifest loader=116 exe=0a109968f4d9 steam=84fa9a0c2333 meta=3b2821a2c074
-[21:24:20] [UPDATE] exe current (local 0a109968f4d9 remote 0a109968f4d9)
-[21:24:20] [KEY] machine HWID PODD
-[21:24:21] [KEY] PWF login OK session=38473a08-14e days=29 expiry=2026-12-07
-[21:24:21] [KEY] accepted days=29 expiry=2026-12-07 plan=days
-[21:24:21] [UPDATE] payload banner steamStale=0 metaStale=0
-[21:24:22] [KEY] accepted, mode=INTERNAL
-[21:24:22] [MODE] Internal — injecting DLL
-[21:24:22] [GAME] candidate ContractorsShowdown.exe pid=14920 rank=7 score=1006 path=C:\Program Files (x86)\Steam\steamapps\common\Contractors Showdown\ContractorsShowdown.exe
-[21:24:22] [GAME] candidate Contractors_Showdown_Steam.exe pid=24008 rank=1 score=-1000 path=C:\Program Files (x86)\Steam\steamapps\common\Contractors Showdown\Contractors_Showdown\Binaries\Win64\Contractors_Showdown_Steam.exe
-[21:24:22] [INJECT] Target Contractors_Showdown_Steam.exe pid=24008 image=C:\Program Files (x86)\Steam\steamapps\common\Contractors Showdown\Contractors_Showdown\Binaries\Win64\Contractors_Showdown_Steam.exe
-[21:24:22] [META] runtime flag cleared for target C:\Program Files (x86)\Steam\steamapps\common\Contractors Showdown\Contractors_Showdown\Binaries\Win64\Contractors_Showdown_Steam.exe
-[21:24:22] [INJECT] payload=Steam build (1656 KB), runtime flag=cleared
-[21:24:22] [INJECT] hwid spoofer staged (140 KB)
-[21:24:22] [INJECT] NtLoadDriver status=0x00000000
-[21:24:22] [INJECT] DLL C:\Users\jakob\AppData\Local\Temp\ContractorsESP.dll bytes, driver handle=0x0000000000000424
-[21:24:23] [INJECT] hwid.dll 143360 bytes -> pid 24008 accepted (br=0)
-[21:24:24] [INJECT] IOCTL accepted, bytes returned=0
-[21:24:29] [INJECT] module check=-1
-[21:24:29] [INJECT] hwid module check=-1 (1 = spoofer active in-process)
-[21:24:29] [INJECT] target not inspectable; relying on the driver's status
+[05:48:59] [LOG] mirror C:\Users\jakob\AppData\Local\Temp\ContractorsESP.log
+[05:48:59] ========== APPLICATION START ==========
+[05:48:59] [BUILD] Compiled Nov 13 2026 05:45:27, PID=38804
+[05:48:59] [STARTUP] GDI+ status=0
+[05:48:59] [UPDATE] manifest loader=116 exe=0a109968f4d9 steam=84fa9a0c2333 meta=3b2821a2c074
+[05:48:59] [UPDATE] exe stale (local edc75deb30b7 remote 0a109968f4d9) -- manifest behind local, not downgrading
+[05:48:59] [KEY] machine HWID PODD
+[05:48:59] [KEY] PWF login OK session=d68ed997-5a5 days=-1 expiry=
+[05:48:59] [KEY] accepted days=-1 expiry= plan=lifetime
+[05:49:00] [KEY] accepted, mode=INTERNAL
+[05:49:00] [MODE] Internal — injecting DLL
+[05:49:00] [GAME] candidate ContractorsShowdown.exe pid=12504 rank=7 score=1006 path=C:\Program Files (x86)\Steam\steamapps\common\Contractors Showdown\ContractorsShowdown.exe
+[05:49:00] [GAME] candidate Contractors_Showdown_Steam.exe pid=38868 rank=1 score=-1000 path=C:\Program Files (x86)\Steam\steamapps\common\Contractors Showdown\Contractors_Showdown\Binaries\Win64\Contractors_Showdown_Steam.exe
+[05:49:00] [INJECT] Target Contractors_Showdown_Steam.exe pid=38868 image=C:\Program Files (x86)\Steam\steamapps\common\Contractors Showdown\Contractors_Showdown\Binaries\Win64\Contractors_Showdown_Steam.exe
+[05:49:00] [META] runtime flag cleared for target C:\Program Files (x86)\Steam\steamapps\common\Contractors Showdown\Contractors_Showdown\Binaries\Win64\Contractors_Showdown_Steam.exe
+[05:49:00] [INJECT] payload=Steam build (1700 KB), runtime flag=cleared
+[05:49:00] [INJECT] hwid spoofer staged (140 KB)
+[05:49:00] [INJECT] NtLoadDriver status=0x00000000
+[05:49:00] [INJECT] DLL C:\Users\jakob\AppData\Local\Temp\ContractorsESP.dll bytes, driver handle=0x00000000000005B4
+[05:49:18] [INJECT] hwid.dll 143360 bytes -> pid 38868 accepted (br=0)
+[05:49:34] [INJECT] IOCTL accepted, bytes returned=0
+[05:49:39] [INJECT] module check=-1
+[05:49:39] [INJECT] hwid module check=-1 (1 = spoofer active in-process)
+[05:49:39] [INJECT] target not inspectable; relying on the driver's status
